@@ -1,0 +1,55 @@
+{
+  "default_scene": "living",
+  "audio": {
+    "background": "/assets/audio/background_music.mp3",
+    "volume": 0.35
+  },
+  "floors": [
+    {
+      "id": "floor1",
+      "name": "Ground Floor",
+      "plan_image": "/assets/floorplans/floor1.png",
+      "locations": [
+        {
+          "id": "living",
+          "name": "Living Room",
+          "panorama": "/assets/panoramas/living.jpg",
+          "initial_view": { "pitch": 0, "yaw": 120 },
+          "hotspots": [],
+          "floor_plan_position": { "x": 0.3, "y": 0.45 }
+        },
+        {
+          "id": "dining",
+          "name": "Dining Room",
+          "panorama": "/assets/panoramas/dining-room-kitchen.jpg",
+          "initial_view": { "pitch": 0, "yaw": -60 },
+          "hotspots": [],
+          "floor_plan_position": { "x": 0.5, "y": 0.5 }
+        },
+        {
+          "id": "library",
+          "name": "Library",
+          "panorama": "/assets/panoramas/library.jpg",
+          "hotspots": [],
+          "floor_plan_position": { "x": 0.7, "y": 0.3 }
+        },
+        {
+          "id": "bathroom",
+          "name": "Bathroom",
+          "panorama": "/assets/panoramas/bathroom.jpg",
+          "initial_view": { "pitch": 0, "yaw": 45 },
+          "hotspots": [],
+          "floor_plan_position": { "x": 0.55, "y": 0.25 }
+        },
+        {
+          "id": "bedroom",
+          "name": "Bedroom",
+          "panorama": "/assets/panoramas/bedroom.jpg",
+          "initial_view": { "pitch": 0, "yaw": 90 },
+          "hotspots": [],
+          "floor_plan_position": { "x": 0.2, "y": 0.25 }
+        }
+      ]
+    }
+  ]
+}
